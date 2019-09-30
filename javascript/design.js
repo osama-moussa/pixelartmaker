@@ -17,7 +17,7 @@ function makeGrid() {
       let cells = document.createElement('td');
       grid_row.appendChild(cells);
 
-      cells.addEventListener('click', function(event) {
+      cells.addEventListener('click', function() {
         this.style.backgroundColor = color.value;
       })
     }
