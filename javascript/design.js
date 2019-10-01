@@ -29,6 +29,7 @@ function makeGrid() {
  }
 
 size_picker.addEventListener('submit', function (e) {
+  canvas.innerHTML=" ";
   e.preventDefault();
   makeGrid();
 })
