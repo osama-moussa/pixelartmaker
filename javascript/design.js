@@ -25,7 +25,7 @@ function makeGrid() {
       })
     }
     }
-   }
+   
  }
 
 size_picker.addEventListener('submit', function (e) {
